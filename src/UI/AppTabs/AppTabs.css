@@ -1,0 +1,41 @@
+.tabs {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.tabs__btn {
+    color: var(--nactive-color);
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+}
+
+.tabs__item:first-child,
+.tabs__item:first-child button {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.tabs__item:last-child,
+.tabs__item:last-child button {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.tabs__btn.active {
+    color: var(--light-color);
+    background-color: var(--active-color);
+    transition: all .3s ease-in-out;
+}
+
+.tabs__item {
+    border: 1px solid var(--nactive-color);
+}
+
+.tabs__item button {
+    padding: 2px 16px;
+}
+
+.tabs__item:not(:last-child) {
+    border-right: 1px solid var(--nactive-color);
+}

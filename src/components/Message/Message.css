@@ -1,0 +1,27 @@
+.message {
+    position: fixed;
+    transform: translateY(-100%);
+    left: 0;
+    right: 0;
+    width: 320px;
+    margin: 0 auto;
+    transition: all .3s ease-in-out;
+    top: 0;
+    padding: 8px;
+    border-radius: 16px;
+    color: var(--active-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-color);
+    -webkit-box-shadow: 0px 0px 56px 2px rgba(1, 76, 167, 0.2);
+    -moz-box-shadow: 0px 0px 56px 2px rgba(1, 76, 167, 0.2);
+    box-shadow: 0px 0px 56px 2px rgba(1, 76, 167, 0.2);
+    z-index: 10;
+}
+
+.message.active {
+    transform: translateY(+100%);
+    transition: all .3s ease-in-out;
+}

@@ -1,0 +1,9 @@
+.app-btn {
+    background-color: var(--active-color);
+    color: var(--light-color);
+    border-radius: 16px;
+    padding: 8px 18px;
+    border: none;
+    display: block;
+    cursor: pointer;
+}

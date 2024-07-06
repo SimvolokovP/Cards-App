@@ -1,0 +1,112 @@
+.card-swiper {
+    width: 100%;
+    padding-right: 10px;
+  }
+  
+  .card {
+    width: 93%;
+    padding: 24px 12px;
+    border: 2px solid var(--nactive-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+  }
+
+  .empty-card {
+    width: 100%;
+    border: 2px solid var(--nactive-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 224px;
+  }
+  
+  .card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card__status {
+    border: 1px solid var(--nactive-color);
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .card__status div {
+    color: var(--light-color);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card__body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .card__body span {
+    color: var(--nactive-color);
+    font-size: 16px;
+  }
+  
+  .card__sum {
+    color: var(--active-color);
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .swiper-button-next {
+    position: absolute;
+    bottom: 10px !important;
+    right: 10px !important;
+    top: 70% !important;
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    border: 2px solid #EAEAEA;
+    padding: 10px !important;
+    width: 35px !important;
+    height: 35px !important;
+    color: var(--active-color) !important;
+    background-color: #fff !important;
+  }
+  
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 25px !important;
+  }
+  
+  .swiper-button-prev {
+    position: absolute;
+    bottom: 10px !important;
+    right: 10px !important;
+    top: 70% !important;
+    left: 80% !important;
+  }
+  
+  .card__descr {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .card__logo {
+    font-size: 22px;
+    color: var(--active-color);
+  }
+
+  .card__actions {
+    padding-top: 20px;
+  }
